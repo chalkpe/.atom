@@ -1,0 +1,159 @@
+"*":
+  "activate-power-mode":
+    particles:
+      size: {}
+      spawnCount: {}
+      totalCount: {}
+    screenShake:
+      enabled: false
+  "atom-beautify":
+    _analyticsUserId: "c505d82d-9647-43c8-aa3a-04cdda220d5a"
+    language_fortran_disabled: true
+    language_java_disabled: true
+  "atom-material-ui":
+    colors:
+      abaseColor:
+        red: 236
+        green: 64
+        blue: 122
+        alpha: 1
+      predefinedColor: "Pink"
+    fonts: {}
+    tabs:
+      tintedTabBar: true
+    treeView:
+      blendTabs: true
+      compactList: true
+    ui:
+      panelContrast: true
+      panelShadows: true
+  core:
+    disabledPackages: [
+      "tool-bar-main"
+      "file-icons"
+      "tool-bar-almighty"
+      "tree-view-breadcrumb"
+    ]
+    packagesWithKeymapsDisabled: [
+      "activate-power-mode"
+    ]
+    themes: [
+      "atom-material-ui"
+      "base16-tomorrow-dark-theme"
+    ]
+  editor:
+    fontSize: 15
+    invisibles: {}
+    showIndentGuide: true
+    tabLength: 4
+  "exception-reporting":
+    userId: "c87c12a4-11a0-57e1-4d87-522f3f860630"
+  "flex-tool-bar": {}
+  minimap:
+    absoluteMode: true
+    adjustMinimapWidthToSoftWrap: false
+    plugins:
+      bookmarks: true
+      bookmarksDecorationsZIndex: 0
+      "find-and-replace": true
+      "find-and-replaceDecorationsZIndex": 0
+      "git-diff": true
+      "git-diffDecorationsZIndex": 0
+      pigments: true
+      pigmentsDecorationsZIndex: 0
+      selection: true
+      selectionDecorationsZIndex: 0
+    scrollAnimation: true
+  "one-dark-ui": {}
+  "terminal-plus":
+    ansiColors:
+      normal:
+        black:
+          red: 21
+          green: 21
+          blue: 21
+          alpha: 1
+        blue:
+          red: 106
+          green: 159
+          blue: 181
+          alpha: 1
+        cyan:
+          red: 117
+          green: 181
+          blue: 170
+          alpha: 1
+        green:
+          red: 144
+          green: 169
+          blue: 89
+          alpha: 1
+        magenta:
+          red: 170
+          green: 117
+          blue: 159
+          alpha: 1
+        red:
+          red: 172
+          green: 65
+          blue: 66
+          alpha: 1
+        white:
+          red: 245
+          green: 245
+          blue: 245
+          alpha: 1
+        yellow:
+          red: 244
+          green: 191
+          blue: 117
+          alpha: 1
+      zBright:
+        brightBlack:
+          red: 80
+          green: 80
+          blue: 80
+          alpha: 1
+        brightBlue:
+          red: 111
+          green: 179
+          blue: 210
+          alpha: 1
+        brightCyan:
+          red: 118
+          green: 199
+          blue: 183
+          alpha: 1
+        brightGreen:
+          red: 161
+          green: 198
+          blue: 89
+          alpha: 1
+        brightMagenta:
+          red: 211
+          green: 176
+          blue: 129
+          alpha: 1
+        brightRed:
+          red: 251
+          green: 1
+          blue: 32
+          alpha: 1
+        brightYellow:
+          red: 253
+          green: 163
+          blue: 49
+          alpha: 1
+    core: {}
+    style:
+      animationSpeed: 3
+      fontFamily: "Ubuntu Mono"
+    toggles:
+      autoClose: true
+  "tool-bar":
+    position: "Left"
+  "tool-bar-almighty": {}
+  "tree-view":
+    hideVcsIgnoredFiles: true
+  welcome:
+    showOnStartup: false

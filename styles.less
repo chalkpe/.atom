@@ -1,0 +1,128 @@
+/*
+ * Your Stylesheet
+ *
+ * This stylesheet is loaded when Atom starts up and is reloaded automatically
+ * when it is changed and saved.
+ *
+ * Add your own CSS or Less to fully customize Atom.
+ * If you are unfamiliar with Less, you can read more about it here:
+ * http://lesscss.org
+ */
+
+
+/*
+     ██████  ██ ████████      ██████ ████████ ██████  ██
+    ██       ██    ██        ██         ██    ██   ██ ██
+    ██   ███ ██    ██        ██         ██    ██████  ██
+    ██    ██ ██    ██        ██         ██    ██   ██ ██
+     ██████  ██    ██         ██████    ██    ██   ██ ███████
+*/
+
+.git-control .logger pre {
+    border: none;
+}
+
+/*
+    ████████ ███████ ██████  ███    ███ ██ ███    ██  █████  ██
+       ██    ██      ██   ██ ████  ████ ██ ████   ██ ██   ██ ██
+       ██    █████   ██████  ██ ████ ██ ██ ██ ██  ██ ███████ ██
+       ██    ██      ██   ██ ██  ██  ██ ██ ██  ██ ██ ██   ██ ██
+       ██    ███████ ██   ██ ██      ██ ██ ██   ████ ██   ██ ███████
+*/
+
+div.terminal-plus.status-bar {
+    padding-top: 6px;
+    padding-bottom: 3px;
+    background-color: #1d1f21;
+}
+
+div.terminal-plus.status-bar i.icon.icon-x {
+    color: inherit;
+}
+
+div.terminal-plus.terminal-view .standard {
+    background-color: #1d1f21;
+}
+
+/*
+    ███████  ██████ ██████   ██████  ██      ██          ██  ██
+    ██      ██      ██   ██ ██    ██ ██      ██             ██
+    ███████ ██      ██████  ██    ██ ██      ██            ██
+         ██ ██      ██   ██ ██    ██ ██      ██           ██
+    ███████  ██████ ██   ██  ██████  ███████ ███████     ██  ██
+*/
+
+span.scroll-percentage {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 0.5rem;
+    max-width: 20vw;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/*
+    ███    ███  █████  ████████ ███████ ██████  ██  █████  ██
+    ████  ████ ██   ██    ██    ██      ██   ██ ██ ██   ██ ██
+    ██ ████ ██ ███████    ██    █████   ██████  ██ ███████ ██
+    ██  ██  ██ ██   ██    ██    ██      ██   ██ ██ ██   ██ ██
+    ██      ██ ██   ██    ██    ███████ ██   ██ ██ ██   ██ ███████
+*/
+
+.tab-bar .tab .title.icon-tools::before {
+    color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.tabBlender {
+    text-transform: none;
+}
+
+.tabBlender span::after {
+    content: 'Atom';
+}
+
+.scrollbars-visible-always /deep/ ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+.scrollbars-visible-always /deep/ ::-webkit-scrollbar-track {
+    background: #1d1f21;
+}
+
+.scrollbars-visible-always /deep/ ::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    border: 3px solid #1d1f21;
+    background: #2b2e31;
+    background-clip: content-box;
+}
+
+.scrollbars-visible-always /deep/ ::-webkit-scrollbar-corner {
+    background: #161719;
+}
+
+.scrollbars-visible-always /deep/ ::-webkit-scrollbar-thumb:vertical:active {
+    border-radius: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+}
+
+.scrollbars-visible-always /deep/ ::-webkit-scrollbar-thumb:horizontal:active {
+    border-radius: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+}
+
+.scrollbars-visible-always atom-text-editor /deep/ ::-webkit-scrollbar-track {
+    background: #1d1f21;
+}
+
+.scrollbars-visible-always atom-text-editor /deep/ ::-webkit-scrollbar-corner {
+    background: #1d1f21;
+}
+
+.scrollbars-visible-always atom-text-editor /deep/ ::-webkit-scrollbar-thumb {
+    border-color: #1d1f21;
+    background: #323639;
+}
