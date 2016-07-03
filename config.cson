@@ -10,6 +10,9 @@
     _analyticsUserId: "c505d82d-9647-43c8-aa3a-04cdda220d5a"
     language_fortran_disabled: true
     language_java_disabled: true
+  "atom-clock":
+    dateFormat: "HH:mm:ss"
+    refreshInterval: 1
   "atom-material-ui":
     colors:
       abaseColor:
@@ -27,28 +30,25 @@
     ui:
       panelContrast: true
       panelShadows: true
+  blame: {}
   core:
-    disabledPackages: [
-      "tool-bar-main"
-      "file-icons"
-      "tool-bar-almighty"
-      "tree-view-breadcrumb"
-    ]
-    packagesWithKeymapsDisabled: [
-      "activate-power-mode"
-    ]
+    autoHideMenuBar: true
     themes: [
       "atom-material-ui"
       "base16-tomorrow-dark-theme"
     ]
   editor:
-    fontSize: 15
     invisibles: {}
     showIndentGuide: true
     tabLength: 4
   "exception-reporting":
     userId: "c87c12a4-11a0-57e1-4d87-522f3f860630"
   "flex-tool-bar": {}
+  "git-blame": {}
+  "git-status": {}
+  "markdown-preview": {}
+  "markdown-writer":
+    fileExtension: ".md"
   minimap:
     absoluteMode: true
     adjustMinimapWidthToSoftWrap: false
@@ -65,6 +65,12 @@
       selectionDecorationsZIndex: 0
     scrollAnimation: true
   "one-dark-ui": {}
+  "split-diff":
+    diffWords: true
+    ignoreWhitespace: true
+    leftEditorColor: "red"
+    rightEditorColor: "green"
+    syncHorizontalScroll: true
   "terminal-plus":
     ansiColors:
       normal:
