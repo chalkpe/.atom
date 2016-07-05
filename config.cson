@@ -50,7 +50,6 @@
   "markdown-writer":
     fileExtension: ".md"
   minimap:
-    absoluteMode: true
     adjustMinimapWidthToSoftWrap: false
     plugins:
       bookmarks: true
@@ -161,5 +160,6 @@
   "tool-bar-almighty": {}
   "tree-view":
     hideVcsIgnoredFiles: true
+  "tree-view-git-status": {}
   welcome:
     showOnStartup: false
