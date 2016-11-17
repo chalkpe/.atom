@@ -30,14 +30,17 @@
     ui:
       panelContrast: true
       panelShadows: true
+  "atom-minimap-titles":
+    font: "ANSI Shadow"
   blame: {}
   core:
-    autoHideMenuBar: true
     themes: [
       "atom-material-ui"
       "base16-tomorrow-dark-theme"
     ]
   editor:
+    fontFamily: "Fira Code"
+    fontSize: 12
     invisibles: {}
     showIndentGuide: true
     tabLength: 4
@@ -45,7 +48,12 @@
     userId: "c87c12a4-11a0-57e1-4d87-522f3f860630"
   "flex-tool-bar": {}
   "git-blame": {}
+  "git-hide":
+    hideOnStartup: false
   "git-status": {}
+  "highlight-selected": {}
+  linter: {}
+  "linter-eslint": {}
   "markdown-preview": {}
   "markdown-writer":
     fileExtension: ".md"
@@ -58,19 +66,17 @@
       "find-and-replaceDecorationsZIndex": 0
       "git-diff": true
       "git-diffDecorationsZIndex": 0
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
       pigments: true
       pigmentsDecorationsZIndex: 0
       selection: true
       selectionDecorationsZIndex: 0
+      "split-diff": true
+      "split-diffDecorationsZIndex": 0
     scrollAnimation: true
   "one-dark-ui": {}
-  "split-diff":
-    diffWords: true
-    ignoreWhitespace: true
-    leftEditorColor: "red"
-    rightEditorColor: "green"
-    syncHorizontalScroll: true
-  "terminal-plus":
+  "platformio-ide-terminal":
     ansiColors:
       normal:
         black:
@@ -155,11 +161,16 @@
       fontFamily: "Ubuntu Mono"
     toggles:
       autoClose: true
+  "split-diff":
+    diffWords: true
+    ignoreWhitespace: true
+    leftEditorColor: "red"
+    rightEditorColor: "green"
+    syncHorizontalScroll: true
   "tool-bar":
     position: "Left"
   "tool-bar-almighty": {}
-  "tree-view":
-    hideVcsIgnoredFiles: true
+  "tree-view": {}
   "tree-view-git-status": {}
   welcome:
     showOnStartup: false

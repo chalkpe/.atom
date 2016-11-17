@@ -10,16 +10,21 @@
  */
 
 
+
 /*
-     ██████  ██ ████████      ██████ ████████ ██████  ██
-    ██       ██    ██        ██         ██    ██   ██ ██
-    ██   ███ ██    ██        ██         ██    ██████  ██
-    ██    ██ ██    ██        ██         ██    ██   ██ ██
-     ██████  ██    ██         ██████    ██    ██   ██ ███████
+    ██      ██ ███    ██ ████████ ███████ ██████
+    ██      ██ ████   ██    ██    ██      ██   ██
+    ██      ██ ██ ██  ██    ██    █████   ██████
+    ██      ██ ██  ██ ██    ██    ██      ██   ██
+    ███████ ██ ██   ████    ██    ███████ ██   ██
 */
 
-.git-control .logger pre {
-    border: none;
+linter-message + linter-message {
+    border-top: none;
+}
+
+linter-message linter-message-line {
+    font-family: 'Ubuntu Mono', monospace;
 }
 
 /*
@@ -42,18 +47,21 @@ atom-text-editor::shadow atom-text-editor-minimap::shadow .minimap-scroll-indica
        ██    ███████ ██   ██ ██      ██ ██ ██   ████ ██   ██ ███████
 */
 
-div.terminal-plus.status-bar {
-    padding-top: 6px;
-    padding-bottom: 3px;
-    background-color: #1d1f21;
+div.platformio-ide-terminal.status-bar {
+    vertical-align: middle;
+    margin-right: 1rem;
+    max-width: 20vw;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
-div.terminal-plus.status-bar i.icon.icon-x {
-    color: inherit;
+div.platformio-ide-terminal.terminal-view .btn-toolbar button {
+    box-shadow: none;
 }
 
-div.terminal-plus.terminal-view .standard {
-    background-color: #1d1f21;
+div.platformio-ide-terminal.terminal-view .standard {
+    background-color: transparent;
 }
 
 /*
@@ -64,7 +72,7 @@ div.terminal-plus.terminal-view .standard {
     ███████  ██████ ██   ██  ██████  ███████ ███████     ██  ██
 */
 
-span.scroll-percentage {
+span#scroll-percentage {
     display: inline-block;
     vertical-align: middle;
     margin-right: 0.5rem;
