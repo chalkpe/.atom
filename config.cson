@@ -15,11 +15,7 @@
     refreshInterval: 1
   "atom-material-ui":
     colors:
-      abaseColor:
-        red: 236
-        green: 64
-        blue: 122
-        alpha: 1
+      abaseColor: "#ec407a"
       predefinedColor: "Pink"
     fonts: {}
     tabs:
@@ -34,6 +30,7 @@
     font: "ANSI Shadow"
   blame: {}
   core:
+    telemetryConsent: "limited"
     themes: [
       "atom-material-ui"
       "base16-tomorrow-dark-theme"
@@ -79,82 +76,22 @@
   "platformio-ide-terminal":
     ansiColors:
       normal:
-        black:
-          red: 21
-          green: 21
-          blue: 21
-          alpha: 1
-        blue:
-          red: 106
-          green: 159
-          blue: 181
-          alpha: 1
-        cyan:
-          red: 117
-          green: 181
-          blue: 170
-          alpha: 1
-        green:
-          red: 144
-          green: 169
-          blue: 89
-          alpha: 1
-        magenta:
-          red: 170
-          green: 117
-          blue: 159
-          alpha: 1
-        red:
-          red: 172
-          green: 65
-          blue: 66
-          alpha: 1
-        white:
-          red: 245
-          green: 245
-          blue: 245
-          alpha: 1
-        yellow:
-          red: 244
-          green: 191
-          blue: 117
-          alpha: 1
+        black: "#151515"
+        blue: "#6a9fb5"
+        cyan: "#75b5aa"
+        green: "#90a959"
+        magenta: "#aa759f"
+        red: "#ac4142"
+        white: "#f5f5f5"
+        yellow: "#f4bf75"
       zBright:
-        brightBlack:
-          red: 80
-          green: 80
-          blue: 80
-          alpha: 1
-        brightBlue:
-          red: 111
-          green: 179
-          blue: 210
-          alpha: 1
-        brightCyan:
-          red: 118
-          green: 199
-          blue: 183
-          alpha: 1
-        brightGreen:
-          red: 161
-          green: 198
-          blue: 89
-          alpha: 1
-        brightMagenta:
-          red: 211
-          green: 176
-          blue: 129
-          alpha: 1
-        brightRed:
-          red: 251
-          green: 1
-          blue: 32
-          alpha: 1
-        brightYellow:
-          red: 253
-          green: 163
-          blue: 49
-          alpha: 1
+        brightBlack: "#505050"
+        brightBlue: "#6fb3d2"
+        brightCyan: "#76c7b7"
+        brightGreen: "#a1c659"
+        brightMagenta: "#d3b081"
+        brightRed: "#fb0120"
+        brightYellow: "#fda331"
     core: {}
     style:
       animationSpeed: 3
@@ -170,7 +107,8 @@
   "tool-bar":
     position: "Left"
   "tool-bar-almighty": {}
-  "tree-view": {}
+  "tree-view":
+    hideVcsIgnoredFiles: true
   "tree-view-git-status": {}
   welcome:
     showOnStartup: false
