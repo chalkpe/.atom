@@ -12,137 +12,139 @@
 
 
 /*
-    ██      ██ ███    ██ ████████ ███████ ██████
-    ██      ██ ████   ██    ██    ██      ██   ██
-    ██      ██ ██ ██  ██    ██    █████   ██████
-    ██      ██ ██  ██ ██    ██    ██      ██   ██
-    ███████ ██ ██   ████    ██    ███████ ██   ██
+  ██      ██ ███    ██ ████████ ███████ ██████
+  ██      ██ ████   ██    ██    ██      ██   ██
+  ██      ██ ██ ██  ██    ██    █████   ██████
+  ██      ██ ██  ██ ██    ██    ██      ██   ██
+  ███████ ██ ██   ████    ██    ███████ ██   ██
 */
 
 linter-message + linter-message {
-    border-top: none;
+  border-top: none;
 }
 
 linter-message linter-message-line {
-    font-family: 'Ubuntu Mono', monospace;
+  font-family: 'Ubuntu Mono', monospace;
 }
 
 /*
-    ███    ███ ██ ███    ██ ██ ███    ███  █████  ██████
-    ████  ████ ██ ████   ██ ██ ████  ████ ██   ██ ██   ██
-    ██ ████ ██ ██ ██ ██  ██ ██ ██ ████ ██ ███████ ██████
-    ██  ██  ██ ██ ██  ██ ██ ██ ██  ██  ██ ██   ██ ██
-    ██      ██ ██ ██   ████ ██ ██      ██ ██   ██ ██
+  ███    ███ ██ ███    ██ ██ ███    ███  █████  ██████
+  ████  ████ ██ ████   ██ ██ ████  ████ ██   ██ ██   ██
+  ██ ████ ██ ██ ██ ██  ██ ██ ██ ████ ██ ███████ ██████
+  ██  ██  ██ ██ ██  ██ ██ ██ ██  ██  ██ ██   ██ ██
+  ██      ██ ██ ██   ████ ██ ██      ██ ██   ██ ██
 */
 
 atom-text-editor::shadow atom-text-editor-minimap::shadow .minimap-scroll-indicator, atom-text-editor atom-text-editor-minimap::shadow .minimap-scroll-indicator, html atom-text-editor-minimap::shadow .minimap-scroll-indicator {
-    background: none;
+  background: none;
 }
 
 /*
-    ████████ ███████ ██████  ███    ███ ██ ███    ██  █████  ██
-       ██    ██      ██   ██ ████  ████ ██ ████   ██ ██   ██ ██
-       ██    █████   ██████  ██ ████ ██ ██ ██ ██  ██ ███████ ██
-       ██    ██      ██   ██ ██  ██  ██ ██ ██  ██ ██ ██   ██ ██
-       ██    ███████ ██   ██ ██      ██ ██ ██   ████ ██   ██ ███████
+  ████████ ███████ ██████  ███    ███ ██ ███    ██  █████  ██
+     ██    ██      ██   ██ ████  ████ ██ ████   ██ ██   ██ ██
+     ██    █████   ██████  ██ ████ ██ ██ ██ ██  ██ ███████ ██
+     ██    ██      ██   ██ ██  ██  ██ ██ ██  ██ ██ ██   ██ ██
+     ██    ███████ ██   ██ ██      ██ ██ ██   ████ ██   ██ ███████
 */
 
-div.platformio-ide-terminal.status-bar {
-    vertical-align: middle;
-    margin-right: 1rem;
-    max-width: 20vw;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-}
+div.platformio-ide-terminal.terminal-view {
 
-div.platformio-ide-terminal.terminal-view .btn-toolbar button {
+
+  .btn-toolbar button {
     box-shadow: none;
-}
+  }
 
-div.platformio-ide-terminal.terminal-view .standard {
+  .standard.xterm {
     background-color: transparent;
+
+    .terminal div {
+      height: 17px;
+      line-height: 17px;
+
+      font-size: 13px;
+    }
+  }
 }
 
 /*
-    ███████  ██████ ██████   ██████  ██      ██          ██  ██
-    ██      ██      ██   ██ ██    ██ ██      ██             ██
-    ███████ ██      ██████  ██    ██ ██      ██            ██
-         ██ ██      ██   ██ ██    ██ ██      ██           ██
-    ███████  ██████ ██   ██  ██████  ███████ ███████     ██  ██
+  ███████  ██████ ██████   ██████  ██      ██          ██  ██
+  ██      ██      ██   ██ ██    ██ ██      ██             ██
+  ███████ ██      ██████  ██    ██ ██      ██            ██
+       ██ ██      ██   ██ ██    ██ ██      ██           ██
+  ███████  ██████ ██   ██  ██████  ███████ ███████     ██  ██
 */
 
 span#scroll-percentage {
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 0.5rem;
-    max-width: 20vw;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 0.5rem;
+  max-width: 20vw;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 /*
-    ███    ███  █████  ████████ ███████ ██████  ██  █████  ██
-    ████  ████ ██   ██    ██    ██      ██   ██ ██ ██   ██ ██
-    ██ ████ ██ ███████    ██    █████   ██████  ██ ███████ ██
-    ██  ██  ██ ██   ██    ██    ██      ██   ██ ██ ██   ██ ██
-    ██      ██ ██   ██    ██    ███████ ██   ██ ██ ██   ██ ███████
+  ███    ███  █████  ████████ ███████ ██████  ██  █████  ██
+  ████  ████ ██   ██    ██    ██      ██   ██ ██ ██   ██ ██
+  ██ ████ ██ ███████    ██    █████   ██████  ██ ███████ ██
+  ██  ██  ██ ██   ██    ██    ██      ██   ██ ██ ██   ██ ██
+  ██      ██ ██   ██    ██    ███████ ██   ██ ██ ██   ██ ███████
 */
 
 .tab-bar .tab .title::before {
-    color: rgba(255, 255, 255, 0.8) !important;
+  color: rgba(255, 255, 255, 0.8) !important;
 }
 
 .tabBlender {
-    text-transform: none;
+  text-transform: none;
 }
 
 .tabBlender span::after {
-    content: 'Atom';
+  content: 'Atom';
 }
 
 .scrollbars-visible-always /deep/ ::-webkit-scrollbar {
-    width: 10px;
-    height: 10px;
+  width: 10px;
+  height: 10px;
 }
 
 .scrollbars-visible-always /deep/ ::-webkit-scrollbar-track {
-    background: #1d1f21;
+  background: #1d1f21;
 }
 
 .scrollbars-visible-always /deep/ ::-webkit-scrollbar-thumb {
-    border-radius: 5px;
-    border: 3px solid #1d1f21;
-    background: #2b2e31;
-    background-clip: content-box;
+  border-radius: 5px;
+  border: 3px solid #1d1f21;
+  background: #2b2e31;
+  background-clip: content-box;
 }
 
 .scrollbars-visible-always /deep/ ::-webkit-scrollbar-corner {
-    background: #161719;
+  background: #161719;
 }
 
 .scrollbars-visible-always /deep/ ::-webkit-scrollbar-thumb:vertical:active {
-    border-radius: 0;
-    border-left-width: 0;
-    border-right-width: 0;
+  border-radius: 0;
+  border-left-width: 0;
+  border-right-width: 0;
 }
 
 .scrollbars-visible-always /deep/ ::-webkit-scrollbar-thumb:horizontal:active {
-    border-radius: 0;
-    border-top-width: 0;
-    border-bottom-width: 0;
+  border-radius: 0;
+  border-top-width: 0;
+  border-bottom-width: 0;
 }
 
 .scrollbars-visible-always atom-text-editor /deep/ ::-webkit-scrollbar-track {
-    background: #1d1f21;
+  background: #1d1f21;
 }
 
 .scrollbars-visible-always atom-text-editor /deep/ ::-webkit-scrollbar-corner {
-    background: #1d1f21;
+  background: #1d1f21;
 }
 
 .scrollbars-visible-always atom-text-editor /deep/ ::-webkit-scrollbar-thumb {
-    border-color: #1d1f21;
-    background: #323639;
+  border-color: #1d1f21;
+  background: #323639;
 }

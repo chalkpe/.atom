@@ -30,6 +30,10 @@
     font: "ANSI Shadow"
   blame: {}
   core:
+    disabledPackages: [
+      "line-diff-details"
+      "linter-write-good"
+    ]
     telemetryConsent: "limited"
     themes: [
       "atom-material-ui"
@@ -37,10 +41,8 @@
     ]
   editor:
     fontFamily: "Fira Code"
-    fontSize: 12
     invisibles: {}
     showIndentGuide: true
-    tabLength: 4
   "exception-reporting":
     userId: "c87c12a4-11a0-57e1-4d87-522f3f860630"
   "flex-tool-bar": {}
@@ -50,7 +52,16 @@
   "git-status": {}
   "highlight-selected": {}
   linter: {}
-  "linter-eslint": {}
+  "linter-eslint":
+    lintHtmlFiles: true
+  "linter-js-standard":
+    checkStyleDevDependencies: true
+    showEslintRules: true
+  "linter-ui-default":
+    decorateOnTreeView: "Files and Directories"
+    panelHeight: 66
+    showPanel: true
+    showProviderName: true
   "markdown-preview": {}
   "markdown-writer":
     fileExtension: ".md"
@@ -95,7 +106,7 @@
     core: {}
     style:
       animationSpeed: 3
-      fontFamily: "Ubuntu Mono"
+      fontFamily: "DejaVu Sans Mono for Powerline"
     toggles:
       autoClose: true
   "split-diff":
@@ -107,8 +118,7 @@
   "tool-bar":
     position: "Left"
   "tool-bar-almighty": {}
-  "tree-view":
-    hideVcsIgnoredFiles: true
+  "tree-view": {}
   "tree-view-git-status": {}
   welcome:
     showOnStartup: false
